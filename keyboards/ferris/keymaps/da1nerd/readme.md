@@ -120,3 +120,24 @@ If you decide to use the latter workflow, here are the steps to follow:
   ```
   Note that you may first need to make json2crab executable by using `chmod +x` on it.
   Also note that you may then want to remove the exported keymap from your dowload directory.
+
+
+
+How do I flash the keyboard?
+------------------------------------
+
+Both halves of the keyboard need to be flash separately. First plug the left side of the keyboard into the computer and run the following command:
+
+```sh
+make CONVERT_TO=promicro_rp2040 ferris/sweep:da1nerd:uf2-split-left
+```
+
+Wait for the command line to display "Waiting for drive to deploy..." then press the reset button on the keyboard. The process will flash the keyboard and finish automatically.
+
+Next, unplug the left keyboard and plug in the right keyboard and repeat the same process with the following command:
+
+```sh
+make CONVERT_TO=promicro_rp2040 ferris/sweep:da1nerd:uf2-split-right
+```
+
+Your keyboard is now up to date!
