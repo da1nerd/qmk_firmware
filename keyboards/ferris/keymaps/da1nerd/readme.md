@@ -126,6 +126,8 @@ If you decide to use the latter workflow, here are the steps to follow:
 How do I flash the keyboard?
 ------------------------------------
 
+> Note: you'll need to run the following commands from inside the qmk_firmware directory.
+
 Both halves of the keyboard need to be flash separately. First plug the left side of the keyboard into the computer and run the following command:
 
 ```sh
