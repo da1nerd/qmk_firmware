@@ -32,9 +32,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // The default is 40
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
 
-// Pick good defaults for enabling homerow modifiers
+#define IGNORE_MOD_TAP_INTERRUPT
+#define RETRO_TAPPING
+#define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 240
-#define PERMISSIVE_HOLD
 #define QUICK_TAP_TERM 0
 
 // Underglow configuration
