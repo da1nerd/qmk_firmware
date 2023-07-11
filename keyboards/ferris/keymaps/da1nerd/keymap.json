@@ -37,9 +37,9 @@
       "KC_COMM",
       "KC_DOT",
       "KC_SLSH",
-      "KC_SPC",
+      "KC_LCTL",
       "KC_LSFT",
-      "KC_RCTL",
+      "KC_SPC",
       "TO(1)"
     ],
     [
