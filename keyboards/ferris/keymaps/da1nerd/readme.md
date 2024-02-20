@@ -116,7 +116,7 @@ If you decide to use the latter workflow, here are the steps to follow:
 * Export the keymap to your downloads folder, by hitting the "Export QMK keymap json file" button (it has a drawing with a down arrow on it)
 * Override your original keymap with the output of formatting the exported keymap by running a command such as this one from the root of your qmk repo:
   ```
-  ./keyboards/handwired/ferris/keymaps/json2crab.py --input <Your download directory>/default.json > ./keyboards/handwired/ferris/keymaps/default/keymap.json
+  ./keyboards/ferris/keymaps/json2crab.py --input <Your download directory>/default.json > ./keyboards/handwired/ferris/keymaps/default/keymap.json
   ```
   Note that you may first need to make json2crab executable by using `chmod +x` on it.
   Also note that you may then want to remove the exported keymap from your dowload directory.
