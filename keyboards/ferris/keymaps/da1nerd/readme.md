@@ -16,21 +16,19 @@ What do all these layers do?
 
 ### Layer 0: Base layer
 
-![Layer 0](./images/layer0.png)
+![Layer 0](https://github.com/da1nerd/qmk_firmware/assets/166412/75d02e26-72a5-421f-815a-e18b42ca026a)
 
 ### Layer 1: Symbols
 
-![Layer 1](./images/layer1.png)
-
-
+![Layer 1](https://github.com/da1nerd/qmk_firmware/assets/166412/223a8478-823e-4270-9f0d-cd1c6aebbc3a)
 
 ### Layer 2: Numbers
 
-![Layer 2](./images/layer2.png)
+![Layer 2](https://github.com/da1nerd/qmk_firmware/assets/166412/31f3a028-cf29-4653-9a74-e1951f0a098f)
 
 ### Layer 3: Navigation
 
-![Layer 3](./images/layer3.png)
+![Layer 3](https://github.com/da1nerd/qmk_firmware/assets/166412/caa747b0-c9ce-481b-91b6-e6a3dd41dca6)
 
 Where is the keymap.c?
 ----------------------
